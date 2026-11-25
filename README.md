@@ -1,8 +1,8 @@
 # best-cooking-game
 
-[![make.fun bounty](https://make.fun/badge/best-cooking-game-20261125-0137.svg)](https://make.fun/bounty/best-cooking-game-20261125-0137)
-[![make.fun rank](https://make.fun/badge/best-cooking-game-20261125-0137/rank/acch50827-maker/best-cooking-game.svg)](https://make.fun/bounty/best-cooking-game-20261125-0137)
-[![make.fun reward](https://make.fun/badge/best-cooking-game-20261125-0137/reward/acch50827-maker/best-cooking-game.svg)](https://make.fun/bounty/best-cooking-game-20261125-0137)
+[![make.fun · best-cooking-game-20261125-0137](https://make.fun/badge/best-cooking-game-20261125-0137.svg)](https://make.fun/bounty/best-cooking-game-20261125-0137?utm_source=github&utm_medium=readme&utm_campaign=best-cooking-game-20261125-0137)
+[![rank](https://make.fun/badge/best-cooking-game-20261125-0137/acch50827-maker/best-cooking-game/rank.svg)](https://make.fun/bounty/best-cooking-game-20261125-0137/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-cooking-game-20261125-0137)
+[![reward](https://make.fun/badge/best-cooking-game-20261125-0137/acch50827-maker/best-cooking-game/reward.svg)](https://make.fun/bounty/best-cooking-game-20261125-0137?utm_source=github&utm_medium=readme&utm_campaign=best-cooking-game-20261125-0137)
 
 **Warung Rasa — Dapur Kilat**: run a tiny Indonesian warung kitchen against the clock. Orders land on the order board, ingredients wait on the counter, and every dish is assembled by hand on the plate.
 
