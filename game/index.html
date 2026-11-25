@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Warung Rasa — Dapur Kilat</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #241610;
+    height: 100%;
+    overflow: hidden;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+  }
+  #wrap {
+    width: min(1280px, 100vw);
+    aspect-ratio: 1280 / 800;
+    max-height: 100vh;
+    position: relative;
+  }
+  canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+    image-rendering: auto;
+  }
+  #fallback {
+    position: absolute;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: #f4e3c2;
+    text-align: center;
+    padding: 2rem;
+  }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="1280" height="800"></canvas>
+  <div id="fallback"><p>Browser ini tidak menjalankan canvas. Buka game ini di Chrome desktop.</p></div>
+</div>
+<script type="module" src="./src/main.js"></script>
+<script>
+  if (!document.getElementById('game').getContext) {
+    document.getElementById('fallback').style.display = 'flex';
+  }
+</script>
+</body>
+</html>
